@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'diplomacy-manager-cli',
+    modulePrefix: 'tunes',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
