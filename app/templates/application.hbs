@@ -4,8 +4,13 @@
             <h2 id="title">Crowdqa pilot demo</h2>
         </div>
         <div class="panel-body">
-          {{#link-to "artists"}}Artist{{/link-to}}
-          {{outlet}}
+          <aside class="artists-list">
+            {{artist-list list=model}}
+          </aside>
+
+          <section class="songs-list">
+            {{outlet}}
+          </section>
         </div>
         <div class="panel-footer">
             <a href="http://www.toptal.com/javascript/a-step-by-step-guide-to-building-your-first-ember-js-app">Rock & Roll </a>
