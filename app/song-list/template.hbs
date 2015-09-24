@@ -1,10 +1,7 @@
 <ul>
-  <li>Songs</li>
-  <li>Songs</li>
-  <li>Songs</li>
-  <li>Songs</li>
-  <li>Songs</li>
-  <li>Songs</li>
+  {{#each model as |song| }}
+  <li>{{song}}</li>
+  {{/each}}
 </ul>
 
 {{outlet}}
